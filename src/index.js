@@ -1,4 +1,4 @@
-const msgs = [
+const names = [
     'Manuma',
     'Demi Lovato',
     'Miley Cyrus',
@@ -21,10 +21,10 @@ const msgs = [
     'Sigmund Freud',
 ]
 
-const randomMsg = () => {
-    const msg = msgs[Math.floor(Math.random() * msgs.length)]
+const randomNames = () => {
+    const name = names[Math.floor(Math.random() * names.length)]
 
-    console.log(msg)
+    console.log(name)
 }
 
-module.exports = { randomMsg }
+module.exports = { randoNames }
