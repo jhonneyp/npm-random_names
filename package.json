@@ -1,0 +1,20 @@
+{
+  "name": "random-msg",
+  "version": "1.0.0",
+  "description": "random messages",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "jode",
+    "nom"
+  ],
+  "author": "Jhonney Correa <jhonneycp@gmail.com>",
+  "license": "MIT",
+  "bin":{
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true
+}
